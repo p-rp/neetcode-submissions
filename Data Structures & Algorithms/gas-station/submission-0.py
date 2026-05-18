@@ -13,5 +13,6 @@ class Solution:
 
             if fuel < 0:
                 starting = i+1
+                fuel = 0
         
         return starting
